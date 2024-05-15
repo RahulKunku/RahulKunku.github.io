@@ -428,7 +428,7 @@ section {
 # Skills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 25px;
+  height: auto;
   display: block;
   background: none;
   border-radius: 0;
@@ -462,6 +462,36 @@ section {
   background-color: #149ddd;
 }
 
+/* Adjustments for the Certifications sub-section */
+.certifications-section {
+  margin-top: 20px; /* Adjust this value to control the gap between Other Tools and Certifications */
+}
+
+.certifications-title {
+  color: black;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.certifications-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.certifications-section ul li {
+  margin-bottom: 10px;
+}
+
+.certifications-section ul li a {
+  color: #149ddd;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.certifications-section ul li a:hover {
+  color: #0056b3;
+}
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
@@ -1050,5 +1080,73 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
+  }
+}
+
+/* Education section layout for mobile */
+@media (max-width: 768px) {
+  .services .row .col-lg-4,
+  .services .row .col-md-6 {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+  .services .row .col-lg-4 img,
+  .services .row .col-md-6 img {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 80%;
+  }
+}
+
+/* Adjust hero section for mobile */
+@media (max-width: 768px) {
+  #hero {
+    height: auto;
+    padding: 100px 20px; /* Adjust padding as needed */
+    text-align: center;
+  }
+
+  #hero .hero-container {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    width: 100%;
+  }
+
+  #hero .hero-container h1 {
+    font-size: 28px; /* Adjust font size as needed */
+  }
+
+  #hero .hero-container p {
+    font-size: 16px; /* Adjust font size as needed */
+  }
+}
+
+/* Adjust hero section for narrow desktop */
+@media (min-width: 769px) and (max-width: 1199px) {
+  #hero {
+    height: auto;
+    padding: 150px 20px; /* Adjust padding as needed */
+  }
+
+  #hero .hero-container {
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
+    width: 100%;
+    padding: 0 50px; /* Adjust padding as needed */
+  }
+
+  #hero .hero-container h1 {
+    font-size: 36px; /* Adjust font size as needed */
+  }
+
+  #hero .hero-container p {
+    font-size: 18px; /* Adjust font size as needed */
   }
 }
