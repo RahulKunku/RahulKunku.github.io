@@ -92,9 +92,18 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
+#header .profile .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
 #header .profile .social-links a {
   font-size: 18px;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: #212431;
   color: #fff;
   line-height: 1;
@@ -111,6 +120,28 @@ h1, h2, h3, h4, h5, h6 {
   background: #149ddd;
   color: #fff;
   text-decoration: none;
+}
+
+#header .profile .resume-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 28px;
+  border-radius: 20px;
+  background-color: #212431;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  margin-top: 2px;
+  transition: background-color 0.3s;
+}
+
+#header .profile .resume-link i {
+  margin-right: 5px;
+}
+
+#header .profile .resume-link:hover {
+  background-color: #149ddd;
 }
 
 #main {
@@ -397,7 +428,7 @@ section {
 # Skills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 60px;
+  height: 25px;
   display: block;
   background: none;
   border-radius: 0;
@@ -437,8 +468,9 @@ section {
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 20px;
+  height: 40px;
   color: #050d18;
 }
 
