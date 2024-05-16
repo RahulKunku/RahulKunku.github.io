@@ -355,7 +355,7 @@ section {
 .about .content ul li {
   margin-bottom: 20px;
   display: flex;
-  align-items: center;
+  align-items: top;
 }
 
 .about .content ul strong {
@@ -366,7 +366,7 @@ section {
   font-size: 16px;
   margin-right: 5px;
   color: #149ddd;
-  line-height: 0;
+  line-height: 1.25;
 }
 
 .about .content p:last-child {
@@ -440,7 +440,7 @@ section {
   text-transform: capitalize;
   display: block;
   font-weight: 600;
-  font-size: 110%;
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
   color: #050d18;
 }
@@ -1064,55 +1064,5 @@ section {
     display: block;
     margin: 0 auto 20px;
     max-width: 80%;
-  }
-}
-
-/* Adjust hero section for mobile */
-@media (max-width: 768px) {
-  #hero {
-    height: auto;
-    padding: 100px 20px; /* Adjust padding as needed */
-    text-align: center;
-  }
-
-  #hero .hero-container {
-    position: relative;
-    top: auto;
-    left: auto;
-    transform: none;
-    width: 100%;
-  }
-
-  #hero .hero-container h1 {
-    font-size: 28px; /* Adjust font size as needed */
-  }
-
-  #hero .hero-container p {
-    font-size: 16px; /* Adjust font size as needed */
-  }
-}
-
-/* Adjust hero section for narrow desktop */
-@media (min-width: 769px) and (max-width: 1199px) {
-  #hero {
-    height: auto;
-    padding: 150px 20px; /* Adjust padding as needed */
-  }
-
-  #hero .hero-container {
-    position: relative;
-    top: auto;
-    left: auto;
-    transform: none;
-    width: 100%;
-    padding: 0 50px; /* Adjust padding as needed */
-  }
-
-  #hero .hero-container h1 {
-    font-size: 36px; /* Adjust font size as needed */
-  }
-
-  #hero .hero-container p {
-    font-size: 18px; /* Adjust font size as needed */
   }
 }
