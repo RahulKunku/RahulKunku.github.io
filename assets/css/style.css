@@ -537,9 +537,19 @@ section {
   max-width: none; /* Adjust max-width as needed */
 }
 
-.resume .resume-item h4 {
-  line-height: 18px;
+.resume .resume-item h6 {
   font-size: 18px;
+  line-height: 24px;
+  display: inline-block;
+  align-items: left;
+  font-weight: 600;
+  color: #149ddd;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h4 {
+  line-height: 22px;
+  font-size: 22px;
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
@@ -555,6 +565,8 @@ section {
   font-weight: 600;
   margin-bottom: 10px;
 }
+
+
 
 .resume .resume-item ul {
   padding-left: 20px;
