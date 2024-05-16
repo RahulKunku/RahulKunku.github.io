@@ -739,6 +739,39 @@ section {
   padding: 0;
 }
 
+/* Project Links */
+.project-links {
+  margin-top: 10px;
+}
+
+.project-links a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.project-links .btn-github {
+  background-color: #333;
+  transition: background-color 0.3s;
+}
+
+.project-links .btn-github:hover {
+  background-color: #555;
+}
+
+.project-links .btn-report {
+  background-color: #149ddd;
+  transition: background-color 0.3s;
+}
+
+.project-links .btn-report:hover {
+  background-color: #37b3ed;
+}
+
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
